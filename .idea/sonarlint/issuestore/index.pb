@@ -5,3 +5,5 @@ V
 &src/com/company/EntitiesExample01.java,e/1/e13633b573ffcc9688b7e17b1586aae8e8fd395f
 M
 src/com/company/Stream01.java,f/a/fa8f11f40a864adf4324f5a4af5493b3b0f56996
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
