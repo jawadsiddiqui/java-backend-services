@@ -1,6 +1,6 @@
 
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äßó¿8ûï¥Ò—/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰ûÑòýÿÿÿÿ8ûï¥Ò—/
 U
 java:S1144"8Remove this unused private "AddTwoBinaryNumbers" method.(äßó¿8·ç×Æ˜/
 X	java:S125"<This block of commented-out lines of code should be removed.(˜Â¥ö8·ç×Æ˜/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰ûÑòýÿÿÿÿ8ûï¥Ò—/
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äßó¿8ûï¥Ò—/

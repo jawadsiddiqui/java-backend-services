@@ -3,9 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Stream01.CheckStream();
+        //Stream01.CheckStream();
 	    // write your code here
         //AddTwoBinaryNumbers("11","1" );
+        Java8Demo.ListMethod();
     }
 
     private static void AddTwoBinaryNumbers(String a, String b) {

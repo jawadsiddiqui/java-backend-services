@@ -7,3 +7,5 @@ M
 src/com/company/Stream01.java,f/a/fa8f11f40a864adf4324f5a4af5493b3b0f56996
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+W
+'src/com/company/MethodsInInterface.java,2/7/2707bdf5526efda643ac66ff11f57d69aa2cce3e
