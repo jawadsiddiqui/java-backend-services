@@ -1,4 +1,4 @@
-# Code Revision Examples 
+# Code Revision Examples  (Interviews)
 
 
 ## Generics
@@ -10,6 +10,7 @@
 ## Functional Interfaces
 
 ## Streams
+At a foundation we have a BaseStream (Generic Interface)
 
 
 ## Problem Solvings
@@ -20,6 +21,9 @@
 ## Recommended Books
 * Java The Complete Reference (JDK 8 New Features)
 * Head First Start Design Pattern
+
+http://github.com - automatic!
+[Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
 
 
 
