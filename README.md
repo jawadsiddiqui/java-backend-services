@@ -20,14 +20,16 @@ At a foundation we have a BaseStream (Generic Interface)
 * 2D Array
 * Add Two Binary Numbers
 
-## Recommended Books
-* Java The Complete Reference (JDK 8 New Features)
-* Head First Start Design Pattern
+## Interview Topics / Questions
+* [12 Factor App Development Methodology](https://12factor.net/)
 * [Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
 
 
-## Interview Topics
-* [12 Factor App Development Methodology](https://12factor.net/)
+## Recommended Books
+* Java The Complete Reference (JDK 8 New Features)
+* Head First Start Design Pattern
+
+
 
 
 
