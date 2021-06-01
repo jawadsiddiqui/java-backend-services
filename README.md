@@ -2,8 +2,8 @@
 
 
 ## Generics
-Generic Class
-Two Parameter Generic Class
+* Generic Class
+* Two Parameter Generic Class
 
 ## Lambda Expression 
 
@@ -13,13 +13,13 @@ Two Parameter Generic Class
 
 
 ## Problem Solvings
-Calculate LCM, GCD
-2D Array
-Add Two Binary Numbers
+* Calculate LCM, GCD
+* 2D Array
+* Add Two Binary Numbers
 
-Recommended Books
-Java Complete Reference
-Head First Start Design Pattern
+## Recommended Books
+> Java Complete Reference
+> Head First Start Design Pattern
 
 
 
