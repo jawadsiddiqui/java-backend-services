@@ -18,7 +18,7 @@
 * Add Two Binary Numbers
 
 ## Recommended Books
-* Java Complete Reference
+* Java The Complete Reference (JDK 8 New Features)
 * Head First Start Design Pattern
 
 
