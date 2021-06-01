@@ -18,8 +18,8 @@
 * Add Two Binary Numbers
 
 ## Recommended Books
-> Java Complete Reference
-> Head First Start Design Pattern
+* Java Complete Reference
+* Head First Start Design Pattern
 
 
 
