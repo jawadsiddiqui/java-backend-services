@@ -13,6 +13,7 @@
 At a foundation we have a BaseStream (Generic Interface)
 
 
+
 ## Problem Solvings
 * Calculate LCM, GCD
 * 2D Array
@@ -22,6 +23,11 @@ At a foundation we have a BaseStream (Generic Interface)
 * Java The Complete Reference (JDK 8 New Features)
 * Head First Start Design Pattern
 * [Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
+
+
+## Interview Topics
+* [12 Factor App Development Methodology](https://12factor.net/)
+
 
 
 
