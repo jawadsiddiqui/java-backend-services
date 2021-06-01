@@ -8,9 +8,20 @@ public class Main {
         //AddTwoBinaryNumbers("11","1" );
         //Java8Demo.ListMethod();
         //System.out.println(calLCM(1,2));
-        matrix();
-        findGCD(24,18);
+        //matrix();
+        //findGCD(24,18);
         //removeDuplicateFromSortedArray();
+
+        //how to use genericClass
+//        GenericClass<String> genObject;
+//        genObject = new GenericClass<>("");
+//        genObject.showType();
+
+//        TwoParamGenClass<String, Integer> twoParamGenClass;
+//        twoParamGenClass = new TwoParamGenClass<>("", 1);
+//        twoParamGenClass.showType();
+
+
     }
 
     private static void LCM(int n1, int n2){
