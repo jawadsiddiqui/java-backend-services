@@ -23,9 +23,6 @@ At a foundation we have a BaseStream (Generic Interface)
 * Head First Start Design Pattern
 * [Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
 
-## Tasks To-Do 
-- [x] this is a complete item
-- [ ] this is an incomplete item
 
 
 
