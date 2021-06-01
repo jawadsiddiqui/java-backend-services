@@ -24,5 +24,10 @@ public class Java8Demo {
         for(int i : list){
             System.out.println(i);
         }
+
+        //lambda + consumer interface
+        //internal iterations
+        //
+        list.forEach(integer -> System.out.println(integer));
     }
 }
