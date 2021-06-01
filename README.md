@@ -25,18 +25,15 @@ At a foundation we have a BaseStream (Generic Interface)
 * [Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
 * OOPS concepts
 * Design patterns
-** Creational patterns
-Abstract factory, Builder, Dependency injection, Factory method, Lazy initialization, Object pool, Resource acquisition is initialization, Prototype, Singleton
-** Structural patterns
-Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Front controller, Marker, Module, Private class data, Proxy, Twin
-** Behavioral patterns
-Blackboard, Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null object, Observer, PubSub, Servent, Specification, State, Strategy, Template method, Visitor
-Concurrency patterns
-Active object, Balking, Binding properties, Compute kernel, Double-checking lock, Event-based synchronization, Guarded suspension, Join, Lock, Messaging desing-pattern, Monitor object, Reactor, Read-write lock, Scheduler, Thread pool, Thread-specific storage
-Resilience patterns
-Messaging patterns
-Microservice patterns
-Anti patterns
+* Creational patterns (Abstract factory, Builder, Dependency injection, Factory method, Lazy initialization, Object pool, Resource acquisition is initialization, Prototype, Singleton)
+* Structural patterns (Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Front controller, Marker, Module, Private class data, Proxy, Twin)
+* Behavioral patterns (Blackboard, Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null object, Observer, PubSub, Servent, Specification, State, Strategy, Template method, Visitor)
+* Concurrency patterns (Active object, Balking, Binding properties, Compute kernel, Double-checking lock, Event-based synchronization, Guarded suspension, Join, Lock, Messaging desing-pattern, Monitor object, Reactor, Read-write lock, Scheduler, Thread pool, Thread-specific storage)
+* Resilience patterns
+* Messaging patterns
+* Microservice patterns
+* Anti patterns
+
 Functional programming
 Reactive programming
 Architectures
