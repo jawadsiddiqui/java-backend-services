@@ -51,32 +51,30 @@ Concurrent collection, Garbage Collection,JDBC (Java Database Connectivity),Serv
 * Maven, Gradle, Thymeleaf, Quartz, 
 
 * __Backing Systems__  
-Message Brokers (Kafka
-,ActiveMQ
-,RabbitMQ
+Message Brokers (Kafka ,ActiveMQ ,RabbitMQ)
 * NoSQL Databases
-,Redis
+(Redis
 ,MongoDB
-,Cassandra
+,Cassandra)
 
 * SQL Databases
-,MySQL
-,MS SQL Server
+(MySQL
+,MS SQL Server)
 
 * DevOps
-,Dockers
+(Dockers
 ,Jenkins
 ,Groovy
 ,CI/CD pipeline
 ,Kubernetes 
-,Cloud Foundary (Pivotal)
+,Pivotal Cloud Foundary)
 
-*Automation
-Cucumber (BDT)
+* Automation
+(Cucumber (BDT)
 ,TestNG
 ,RestAssured
 ,Gatling
-,JMeter
+,JMeter)
 
 ## Recommended Books
 * Java The Complete Reference (JDK 8 New Features)
