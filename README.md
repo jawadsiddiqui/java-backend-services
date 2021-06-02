@@ -30,7 +30,7 @@ Concurrent collection, Garbage Collection,JDBC (Java Database Connectivity),Serv
 * JUnit, Mochito, Netflix OSS, Zuul, Eureka, ConfigServer, FeignClient
 * Maven, Gradle, Thymeleaf, Quartz, 
 
-* Backing Systems - Message Brokers (Kafka ,ActiveMQ ,RabbitMQ)
+* Backing Systems - Message Brokers ([Kafka](https://tianpan.co/notes/61-what-is-apache-kafka) ,ActiveMQ ,RabbitMQ)
 * NoSQL Databases
 (Redis
 ,MongoDB

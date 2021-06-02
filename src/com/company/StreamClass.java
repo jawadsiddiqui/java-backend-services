@@ -24,7 +24,7 @@ public class StreamClass {
         }
 
 
-        //terminal operation
+        //terminal operation min()
 
         //Must obtain new stream
         myStream = list.stream();
