@@ -43,14 +43,14 @@ public class StreamClass {
         System.out.println("Sorted Stream");
         sortedStream.forEach(n-> System.out.println(n));
 
-        System.out.println("Odd Values");
+        System.out.println("Odd Values:");
         Stream<Integer> oddVal = list.stream().sorted().filter(n->n%2==1);
-        oddVal.forEach(n-> System.out.println(n));
+        oddVal.forEach(n-> System.out.print(n+" "));
 
 
-        System.out.println("Filtering OddValues greater than 5");
+        System.out.println("Filtering OddValues greater than 5:");
         oddVal = list.stream().sorted().filter(n->n%2==1).filter(n->n>5);
-        oddVal.forEach(n-> System.out.println(n));
+        oddVal.forEach(n-> System.out.print(n +" "));
 
         System.out.println("Parallel Stream forEachOrdered");
         ArrayList<String> myList = new ArrayList<>();
@@ -61,6 +61,29 @@ public class StreamClass {
         myList.parallelStream().forEachOrdered(System.out::println);
         System.out.println("Stream forEach");
         myList.stream().forEach(System.out::println);
+
+    }
+
+    public static void reduceExamples()
+    {
+
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(2);
+        list.add(4);
+        list.add(2);
+
+
+        //accumulator must satisfy three constrains
+        // Stateless, Non-Interfaring, Associative
+
+        Optional<Integer> streamReduce  = list.stream().reduce((a,b) -> a*b);
+        if(streamReduce.isPresent())
+            System.out.println("Product as optional:" + streamReduce.get());
+
+        int product = list.stream().reduce(1, (a,b) -> a*b);
+        System.out.println("Product as Identity:" + product);
 
     }
 }

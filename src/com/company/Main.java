@@ -1,9 +1,12 @@
 package com.company;
 
+import java.util.stream.Stream;
+
 public class Main {
 
     public static void main(String[] args) {
-        StreamClass.CheckStream();
+        //StreamClass.CheckStream();
+        StreamClass.reduceExamples();
 	    // write your code here
         //AddTwoBinaryNumbers("11","1" );
         //Java8Demo.ListMethod();

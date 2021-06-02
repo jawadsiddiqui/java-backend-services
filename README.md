@@ -70,11 +70,11 @@ At a foundation we have a BaseStream (Generic Interface). BaseStream extends the
 -- A terminal operation consumes the stream. It is used to produce a result, such as finding the minimum value in the stream, or to execute some action
 
 * [Terminal / Intermediate Operations](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/StreamClass.java)
+* [Reduce](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/StreamClass.java)
 
 ### Problem Solvings
-* Calculate LCM, GCD
-* 2D Array
-* Add Two Binary Numbers
+* [GCD, LCM, Matrix](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/Main.java)
+* [Add Two Binary Numbers](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/Main.java)
 
 
 ### Recommended Books
