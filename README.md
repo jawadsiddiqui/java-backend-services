@@ -58,7 +58,7 @@ Concurrent collection, Garbage Collection,JDBC (Java Database Connectivity),Serv
 
 ### Generics Examples
 * [Generic Class](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/GenericClass.java)
-* [Two Parameter Generic Class](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/GenericClass.java)
+* [Two Parameter Generic Class](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/TwoParamGenClass.java)
 
 ### Lambda Expression Examples
 
