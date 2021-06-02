@@ -1,6 +1,6 @@
 package com.company;
 
-public interface ClassFunctionalInterface {
+public interface FunctionalInterface {
     /**
      * Now in JDK8 We can define method
      */

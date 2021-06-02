@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 // at a foundation we have BaseStream
 // BaseStream is a generic Interface
-public class Stream01 {
+public class StreamClass {
     public static void CheckStream(){
 
         ArrayList<Integer> list = new ArrayList<>();
