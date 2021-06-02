@@ -78,7 +78,7 @@ At a foundation we have a BaseStream (Generic Interface). BaseStream extends the
 
 
 ### Recommended Books
-* Java The Complete Reference (JDK 8 New Features)
+* Java The Complete Reference
 * Head First Start Design Pattern
 
 
