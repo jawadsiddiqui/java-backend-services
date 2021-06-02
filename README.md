@@ -30,8 +30,7 @@ Concurrent collection, Garbage Collection,JDBC (Java Database Connectivity),Serv
 * JUnit, Mochito, Netflix OSS, Zuul, Eureka, ConfigServer, FeignClient
 * Maven, Gradle, Thymeleaf, Quartz, 
 
-* __Backing Systems__  
-Message Brokers (Kafka ,ActiveMQ ,RabbitMQ)
+* Backing Systems - Message Brokers (Kafka ,ActiveMQ ,RabbitMQ)
 * NoSQL Databases
 (Redis
 ,MongoDB
@@ -57,28 +56,25 @@ Message Brokers (Kafka ,ActiveMQ ,RabbitMQ)
 ,JMeter)
 
 
-
-
-## Generics
+### Generics Examples
 * Generic Class
 * Two Parameter Generic Class
 
-## Lambda Expression 
+### Lambda Expression Examples
 
-## Functional Interfaces
+### Functional Interfaces Examples
 
-## Streams
-At a foundation we have a BaseStream (Generic Interface)
+### Streams Examples
+At a foundation we have a BaseStream (Generic Interface). BaseStream extends the AutoCloseable interface; thus, a stream can be managed in a try-with-resources statement.
 
 
-
-## Problem Solvings
+### Problem Solvings
 * Calculate LCM, GCD
 * 2D Array
 * Add Two Binary Numbers
 
 
-## Recommended Books
+### Recommended Books
 * Java The Complete Reference (JDK 8 New Features)
 * Head First Start Design Pattern
 

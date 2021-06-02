@@ -24,6 +24,12 @@ public class StreamClass {
         }
 
 
+        //terminal operation
+
+        //Must obtain new stream
+        myStream = list.stream();
+
+
         ArrayList<String> myList = new ArrayList<>();
         myList.add("a");
         myList.add("b");
