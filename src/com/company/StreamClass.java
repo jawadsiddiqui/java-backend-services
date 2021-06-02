@@ -16,6 +16,8 @@ public class StreamClass {
         list.add(4);
         list.add(2);
         list.add(0);
+        list.add(7);
+        list.add(9);
 
         System.out.println("Original List:" + list);
 
@@ -43,6 +45,11 @@ public class StreamClass {
 
         System.out.println("Odd Values");
         Stream<Integer> oddVal = list.stream().sorted().filter(n->n%2==1);
+        oddVal.forEach(n-> System.out.println(n));
+
+
+        System.out.println("Filtering OddValues greater than 5");
+        oddVal = list.stream().sorted().filter(n->n%2==1).filter(n->n>5);
         oddVal.forEach(n-> System.out.println(n));
 
         System.out.println("Parallel Stream forEachOrdered");
