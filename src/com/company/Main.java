@@ -3,12 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        //Stream01.CheckStream();
+        StreamClass.CheckStream();
 	    // write your code here
         //AddTwoBinaryNumbers("11","1" );
         //Java8Demo.ListMethod();
         //System.out.println(calLCM(1,2));
-        matrix();
+       // matrix();
         //findGCD(24,18);
         //removeDuplicateFromSortedArray();
 
