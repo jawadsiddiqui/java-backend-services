@@ -62,6 +62,8 @@ public class StreamClass {
         System.out.println("Stream forEach");
         myList.stream().forEach(System.out::println);
 
+
+
     }
 
     public static void reduceExamples()
@@ -84,6 +86,22 @@ public class StreamClass {
 
         int product = list.stream().reduce(1, (a,b) -> a*b);
         System.out.println("Product as Identity:" + product);
+
+
+        streamReduce  = list.parallelStream().reduce((a,b) -> a*b);
+        if(streamReduce.isPresent())
+            System.out.println("Product as optional using parallelStream:" + streamReduce.get());
+
+
+        product = list.parallelStream().reduce(1, (a,b) -> a*b);
+        System.out.println("Product as Identity using parallelStream:" + product);
+
+
+        double productDouble = list.parallelStream().reduce(1.0, (a,b) -> a * Math.abs(b), (a,b) -> a*b);
+        System.out.println("Product as Identity using parallelStream:" + productDouble);
+
+
+
 
     }
 }

@@ -1,12 +1,15 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) {
+        AddData();
         //StreamClass.CheckStream();
-        StreamClass.reduceExamples();
+        //StreamClass.reduceExamples();
 	    // write your code here
         //AddTwoBinaryNumbers("11","1" );
         //Java8Demo.ListMethod();
@@ -23,46 +26,52 @@ public class Main {
 //        TwoParamGenClass<String, Integer> twoParamGenClass;
 //        twoParamGenClass = new TwoParamGenClass<>("", 1);
 //        twoParamGenClass.showType();
-
+        //System.out.println(getGCD(2,23));
 
     }
 
-    private static void LCM(int n1, int n2){
-        int lcm = (n1 > n2) ? n1 : n2;
-        // Always true
-        while(true) {
-            if( lcm % n1 == 0 && lcm % n2 == 0 ) {
-                System.out.printf("The LCM of %d and %d is %d.", n1, n2, lcm);
-                break;
-            }
-            ++lcm;
+    public static int getGCD(int n1, int n2) {
+        if (n2 == 0) {
+            return n1;
+        }
+        return getGCD(n2, n1 % n2);
+    }
+
+    public static int getLCM(int n1, int n2) {
+        if (n1 == 0 || n2 == 0)
+            return 0;
+        else {
+            int gcd = getGCD(n1, n2);
+            return Math.abs(n1 * n2) / gcd;
         }
     }
 
+    public static int getTotalX(List<Integer> a, List<Integer> b) {
+        int result = 0;
 
-    private static void calLCMByGCD(int n1, int n2){
-        int gcd = 1;
-        for(int i = 1; i <= n1 && i <= n2; ++i) {
-            // Checks if i is factor of both integers
-            if(n1 % i == 0 && n2 % i == 0)
-                gcd = i;
+        // Get LCM of all elements of a
+        int lcm = a.get(0);
+        for (Integer integer : a) {
+            lcm = getLCM(lcm, integer);
         }
 
-        int lcm = (n1 * n2) / gcd;
-        System.out.printf("The LCM of %d and %d is %d.", n1, n2, lcm);
-    }
-
-
-    private static void findGCD(int n1, int n2){
-        int gcd = 1;
-        for(int i = 1; i <= n1 && i <= n2; ++i) {
-            // Checks if i is factor of both integers
-            if(n1 % i == 0 && n2 % i == 0)
-                gcd = i;
+        // Get GCD of all elements of b
+        int gcd = b.get(0);
+        for (Integer integer : b) {
+            gcd = getGCD(gcd, integer);
         }
-        System.out.printf("The LCM of %d and %d is %d.", n1, n2, gcd);
-    }
 
+        // Count multiples of lcm that divide the gcd
+        int multiple = 0;
+        while (multiple <= gcd) {
+            multiple += lcm;
+
+            if (gcd % multiple == 0)
+                result++;
+        }
+
+        return result;
+    }
 
     private static void removeDuplicateFromSortedArray()
     {
@@ -136,5 +145,31 @@ public class Main {
         }
         if(carry != 0) sb.append(carry);
         System.out.println(sb.reverse().toString());
+    }
+
+    public static void AddData(){
+        ArrayList<NamePhoneEmailDTO> mylist = new ArrayList<>();
+        mylist.add(new NamePhoneEmailDTO("Jhon Doe","555-444-666","jhon@xyz.com"));
+        mylist.add(new NamePhoneEmailDTO("Racy","444-666-777","racy@xyz.com"));
+
+        System.out.println("Original Values");
+
+        mylist.stream().forEach(a -> {
+            System.out.println(a.Name+" "+a.Phone+" "+a.Email);
+        });
+
+        //use of map
+        Stream<NamePhoneDTO> streamNamePhone = mylist.stream().map(a-> new NamePhoneDTO(a.Name, a.Phone));
+        streamNamePhone.forEach(a -> {
+            System.out.println(a.Name+" "+a.Phone);
+        });
+
+        //map filter
+        Stream<NamePhoneDTO> streamNamePhonefilter = mylist.stream().filter(a -> a.Name.equals("Jhon Doe")).map(a-> new NamePhoneDTO(a.Name, a.Phone));
+
+        streamNamePhonefilter.forEach(a -> {
+            System.out.println(a.Name+" "+a.Phone);
+        });
+
     }
 }
