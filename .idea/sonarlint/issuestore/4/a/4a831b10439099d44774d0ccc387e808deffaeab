@@ -1,6 +1,37 @@
 
-U
-java:S1144"8Remove this unused private "AddTwoBinaryNumbers" method.(äßó¿8·ç×Æ˜/
-X	java:S125"<This block of commented-out lines of code should be removed.(˜Â¥ö8·ç×Æ˜/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰ûÑòýÿÿÿÿ8ûï¥Ò—/
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äßó¿8ûï¥Ò—/
+O
+java:S1602´",Remove useless curly braces around statement(ËÐÀçøÿÿÿÿ8ã­’ÿž/
+V
+java:S1144’"8Remove this unused private "AddTwoBinaryNumbers" method.(äßó¿8ã­’ÿž/
+]	java:S125"<This block of commented-out lines of code should be removed.(þ„¢¸ýÿÿÿÿ8ýéÿÑž/
+j	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þ…'8ã­’ÿž/
+U	java:S106y"9Replace this use of System.out or System.err by a logger.(‘´†²8ã­’ÿž/
+]
+java:S3518V"@Make sure "multiple" can't be zero before doing this modulation.(ÛþÝÚ8ã­’ÿž/
+I
+java:S1144ƒ"+Remove this unused private "calLCM" method.(Â¡ÿè8ã­’ÿž/
+V	java:S106¯"9Replace this use of System.out or System.err by a logger.(þôõ•8ã­’ÿž/
+Y	java:S125‰"<This block of commented-out lines of code should be removed.(œÀ‚ª8ã­’ÿž/
+`
+java:S1144]"CRemove this unused private "removeDuplicateFromSortedArray" method.(Î•Ä»8ã­’ÿž/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¸ã£ÿž/
+Z	java:S106{"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ã­’ÿž/
+V	java:S106¼"9Replace this use of System.out or System.err by a logger.(ú©¡í8ã­’ÿž/
+V	java:S106µ"9Replace this use of System.out or System.err by a logger.(ú©¡í8ã­’ÿž/
+V	java:S106Ä"9Replace this use of System.out or System.err by a logger.(³þŒ¹8ã­’ÿž/
+I
+java:S1602»",Remove useless curly braces around statement(é«ë#8ã­’ÿž/
+X	java:S125"<This block of commented-out lines of code should be removed.(±éÕ8ýéÿÑž/
+U	java:S106g"9Replace this use of System.out or System.err by a logger.(ÐÊ 8ã­’ÿž/
+]	java:S125"<This block of commented-out lines of code should be removed.(¦´ÿÐùÿÿÿÿ8ýéÿÑž/
+^	java:S125Ì"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ8Æ«–ÿž/
+[	java:S106¤"9Replace this use of System.out or System.err by a logger.(‰ûÑòýÿÿÿÿ8ã­’ÿž/
+k	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äßó¿8ã­’ÿž/
+M
+java:S1144r"+Remove this unused private "matrix" method.(³ÒÏÍúÿÿÿÿ8ã­’ÿž/
+J
+java:S1602®",Remove useless curly braces around statement(ðÜª¸8ã­’ÿž/
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(–À”8€úü€Ÿ/
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ÿàÖî8–§ø€Ÿ/
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(åÀÅ8ã­’ÿž/

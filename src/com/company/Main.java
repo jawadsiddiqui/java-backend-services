@@ -1,7 +1,8 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
@@ -27,7 +28,36 @@ public class Main {
 //        twoParamGenClass = new TwoParamGenClass<>("", 1);
 //        twoParamGenClass.showType();
         //System.out.println(getGCD(2,23));
+        System.out.println(extractAndSumNumbers("sandw3"));
 
+        FunctionalInterface functionalInterface = t -> true;
+        OptionalClassUsage();
+
+    }
+
+    public static void OptionalClassUsage(){
+        String[] words = new String[10];
+        //String word = words[5].toLowerCase(); //Exception in thread "main" java.lang.NullPointerException
+        //System.out.print(word);
+
+        Optional<String> checkNull =
+                Optional.ofNullable(words[5]);
+
+        if (checkNull.isPresent()) {
+            String word = words[5].toLowerCase();
+            System.out.print(word);
+        } else
+            System.out.println("word is null");
+    }
+
+    public static int extractAndSumNumbers(String s1){
+        String[] numbersOnlyS1 = s1.replaceAll("[^0-9]","").split("");
+        System.out.println(numbersOnlyS1.length);
+        int sumOfNumbersInS1 = 0;
+        for (String n: numbersOnlyS1) {
+            sumOfNumbersInS1 += Integer.parseInt(n);
+        }
+        return sumOfNumbersInS1;
     }
 
     public static int getGCD(int n1, int n2) {
@@ -170,6 +200,21 @@ public class Main {
         streamNamePhonefilter.forEach(a -> {
             System.out.println(a.Name+" "+a.Phone);
         });
+
+        Stream<NamePhoneDTO> namePhone = mylist.stream().map(a-> new NamePhoneDTO(a.Name,a.Phone));
+
+        List<NamePhoneDTO> list = namePhone.collect(Collectors.toList());
+
+        for (NamePhoneDTO e: list){
+            System.out.println(e.Name);
+        }
+
+
+//        LinkedList<NamePhoneDTO> npList = namePhone.collect(
+//                () -> new LinkedList<>(),  //returns new linkedList
+//                (l, elm) -> list.add(elm), //
+//                (la, lb) -> la.addAll(lb)
+//        );
 
     }
 }
