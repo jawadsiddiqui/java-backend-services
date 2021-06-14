@@ -33,6 +33,38 @@ public class Main {
         FunctionalInterface functionalInterface = t -> true;
         OptionalClassUsage();
 
+        System.out.println("strawberries".substring(2,5));
+
+        Optional<String> empty = Optional.empty();
+
+        ThreadTest();
+
+
+
+
+
+
+    }
+
+    //You can implement the Runable interface
+    //you can extend the Thread class itself
+    public static void ThreadTest(){
+        Thread t = Thread.currentThread();
+        System.out.println(t);
+
+        t.setName("MyNewThread");
+        System.out.println(t);
+
+        try {
+            for (int i = 5; i > 0; i--) {
+                System.out.println(i);
+                Thread.sleep(3000);
+            }
+
+            //
+        }catch (InterruptedException ie){
+            System.out.println("Main Interruption");
+        }
     }
 
     public static void OptionalClassUsage(){
