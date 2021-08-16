@@ -81,6 +81,18 @@ At a foundation we have a BaseStream (Generic Interface). BaseStream extends the
 * [user-service Microservice](https://github.com/jawadsiddiqui/user-service)
 * [service-registry](https://github.com/jawadsiddiqui/service-registry)
 
+### Software Development KPIs
+#### Velocity
+#### Sprint Burndown
+#### Release Burndown
+#### Cycle Time
+#### Cumulative Flow
+#### Flow Efficiency
+#### Code Coverage
+#### Code Stability
+#### Code Simplicity
+#### Code Churn
+
 
 
 ### Recommended Books
