@@ -1,10 +1,10 @@
-package com.company;
+package com.company.jdk8features;
 
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class Java8Demo {
+public class LambdaDemo {
     public static void ListMethod(){
         List<Integer> list = Arrays.asList(1,2,3,4,5);
 

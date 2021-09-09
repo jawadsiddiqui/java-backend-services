@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dto;
 
 public class EntitiesExample01 {
     private long Code;

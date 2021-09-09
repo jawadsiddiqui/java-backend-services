@@ -1,7 +1,9 @@
 package com.company;
 
+import com.company.dto.NamePhoneDTO;
+import com.company.dto.NamePhoneEmailDTO;
+
 import java.util.*;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -28,22 +30,35 @@ public class Main {
 //        twoParamGenClass = new TwoParamGenClass<>("", 1);
 //        twoParamGenClass.showType();
         //System.out.println(getGCD(2,23));
-        System.out.println(extractAndSumNumbers("sandw3"));
-
-        FunctionalInterface functionalInterface = t -> true;
-        OptionalClassUsage();
-
-        System.out.println("strawberries".substring(2,5));
-
-        Optional<String> empty = Optional.empty();
-
-        ThreadTest();
+        //System.out.println(extractAndSumNumbers("sandw3"));
 
 
 
+        //OptionalClassUsage();
 
+        //System.out.println("strawberries".substring(2,5));
 
+        //Optional<String> empty = Optional.empty();
 
+        //local thread test
+        //ThreadTest();
+
+        //map
+        //MapFunction();
+
+        //System.out.println(convertToASCII("Z"));
+        //
+
+    }
+
+    private static int convertToASCII(String a){
+        char c = a.charAt(0);
+        return (int) c;
+    }
+
+    private static void MapFunction() {
+        Map<String, Integer> nameMap = new HashMap<>();
+        Integer value = nameMap.computeIfAbsent("John", s -> s.length());
     }
 
     //You can implement the Runable interface
@@ -89,7 +104,11 @@ public class Main {
         for (String n: numbersOnlyS1) {
             sumOfNumbersInS1 += Integer.parseInt(n);
         }
+
+
         return sumOfNumbersInS1;
+
+
     }
 
     public static int getGCD(int n1, int n2) {

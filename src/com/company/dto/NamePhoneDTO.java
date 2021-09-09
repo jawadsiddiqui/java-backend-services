@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dto;
 
 public class NamePhoneDTO {
     String Name;

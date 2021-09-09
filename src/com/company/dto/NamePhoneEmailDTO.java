@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dto;
 
 import java.util.ArrayList;
 

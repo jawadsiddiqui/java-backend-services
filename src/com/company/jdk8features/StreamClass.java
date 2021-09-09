@@ -1,4 +1,4 @@
-package com.company;
+package com.company.jdk8features;
 
 import javax.swing.text.html.Option;
 import java.util.ArrayList;
