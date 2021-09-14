@@ -76,6 +76,24 @@ At a foundation we have a BaseStream (Generic Interface). BaseStream extends the
 * [GCD, LCM, Matrix](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/Main.java)
 * [Add Two Binary Numbers](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/Main.java)
 
+### Microservices Example
+* [department-service Microservice](https://github.com/jawadsiddiqui/department-service)
+* [user-service Microservice](https://github.com/jawadsiddiqui/user-service)
+* [service-registry](https://github.com/jawadsiddiqui/service-registry)
+
+### Software Development KPIs
+* Velocity
+* Sprint Burndown
+* Release Burndown
+* Cycle Time
+* Cumulative Flow
+* Flow Efficiency
+* Code Coverage
+* Code Stability
+* Code Simplicity
+* Code Churn
+
+
 
 ### Recommended Books
 * Java The Complete Reference
