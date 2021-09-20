@@ -1,7 +1,7 @@
 package com.company;
 
-import com.company.dto.NamePhoneDTO;
-import com.company.dto.NamePhoneEmailDTO;
+import com.company.dto.*;
+
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class Main {
 
     public static void main(String[] args) {
-        AddData();
+        //AddData();
         //StreamClass.CheckStream();
         //StreamClass.reduceExamples();
 	    // write your code here
@@ -50,6 +50,8 @@ public class Main {
         //
 
     }
+
+
 
     private static int convertToASCII(String a){
         char c = a.charAt(0);
@@ -236,36 +238,15 @@ public class Main {
         System.out.println("Original Values");
 
         mylist.stream().forEach(a -> {
-            System.out.println(a.Name+" "+a.Phone+" "+a.Email);
+            System.out.println(a.getName()+" "+a.getPhone()+" "+a.getEmail());
         });
 
         //use of map
-        Stream<NamePhoneDTO> streamNamePhone = mylist.stream().map(a-> new NamePhoneDTO(a.Name, a.Phone));
+        Stream<NamePhoneDTO> streamNamePhone = mylist.stream().map(a-> new NamePhoneDTO(a.getName(), a.getPhone()));
         streamNamePhone.forEach(a -> {
-            System.out.println(a.Name+" "+a.Phone);
+            System.out.println(a.getName()+" "+a.getPhone());
         });
 
-        //map filter
-        Stream<NamePhoneDTO> streamNamePhonefilter = mylist.stream().filter(a -> a.Name.equals("Jhon Doe")).map(a-> new NamePhoneDTO(a.Name, a.Phone));
-
-        streamNamePhonefilter.forEach(a -> {
-            System.out.println(a.Name+" "+a.Phone);
-        });
-
-        Stream<NamePhoneDTO> namePhone = mylist.stream().map(a-> new NamePhoneDTO(a.Name,a.Phone));
-
-        List<NamePhoneDTO> list = namePhone.collect(Collectors.toList());
-
-        for (NamePhoneDTO e: list){
-            System.out.println(e.Name);
-        }
-
-
-//        LinkedList<NamePhoneDTO> npList = namePhone.collect(
-//                () -> new LinkedList<>(),  //returns new linkedList
-//                (l, elm) -> list.add(elm), //
-//                (la, lb) -> la.addAll(lb)
-//        );
 
     }
 }
