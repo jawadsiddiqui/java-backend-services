@@ -49,8 +49,25 @@ public class Main {
         //System.out.println(convertToASCII("Z"));
         //
 
+        int n = 2, m = 15;
+        char arr[][] = { { '.', '.', '.', '.', '.',
+                '#', '#', '#',
+                '#', '.', '.', '.', '.', '.', '.' },
+                { '.', '.', '.', '.', '.', '#', '.', '.', '.', '.',
+                        '.', '.', '.', '.', '.' } };
+
+        System.out.println(maximumBoarders(n, m, arr));
+
     }
 
+    private static int maximumBoarders(int n, int m, char[][] arr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.println(arr[i][j]);
+            }
+        }
+        return 0;
+    }
 
 
     private static int convertToASCII(String a){
@@ -249,4 +266,8 @@ public class Main {
 
 
     }
+
+    
+
+
 }

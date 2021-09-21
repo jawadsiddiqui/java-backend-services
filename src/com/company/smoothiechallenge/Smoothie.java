@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class Smoothie {
     static String[] ingredientsList
-            = new String[]{"banana", "honey", "mango", "peach", "pineapple", "strawberry"};
+            = new String[]{"banana", "honey", "mango", "peach", "pineapple", "-strawberry"};
 
 
     public static String ingredients(String order) {
@@ -19,10 +19,10 @@ public class Smoothie {
 
 
         if (order != "" && order.contains("-")) {
-            String[] st = order.split("-");
-            System.out.println(st);
+            String[] st = order.split(",");
+
             for (int i = 0; i < st.length; i++) {
-                return Arrays.stream(ingredientsList).filter(item -> !item.contains(st[i].replace("-", ""))).collect(Collectors.joining(","));
+                return Arrays.stream(ingredientsList).filter(item -> !item.startsWith("-")).collect(Collectors.joining(","));
             }
         }
 
