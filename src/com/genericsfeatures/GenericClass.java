@@ -1,4 +1,4 @@
-package com.company.genericsfeatures;
+package com.genericsfeatures;
 
 //a simple generic class
 public class GenericClass<T> {

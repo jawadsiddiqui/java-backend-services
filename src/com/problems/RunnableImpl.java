@@ -1,4 +1,4 @@
-package com.company;
+package com.problems;
 
 public class RunnableImpl implements Runnable {
     Thread t;

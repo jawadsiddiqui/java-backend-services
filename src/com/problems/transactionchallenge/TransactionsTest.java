@@ -1,4 +1,4 @@
-package com.company.transactionchallenge;
+package com.problems.transactionchallenge;
 
 import org.junit.Test;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.company.genericsfeatures;
+package com.genericsfeatures;
 
 public class TwoParamGenClass<T, V> {
 

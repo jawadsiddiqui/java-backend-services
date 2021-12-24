@@ -1,6 +1,5 @@
-package com.company.smoothiechallenge;
+package com.problems.smoothiechallenge;
 
-import com.company.smoothiechallenge.Smoothie;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

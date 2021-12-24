@@ -1,10 +1,9 @@
-package com.company;
+package com.problems;
 
-import com.company.dto.*;
+import com.problems.dto.*;
 
 
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
@@ -61,12 +60,29 @@ public class Main {
     }
 
     private static int maximumBoarders(int n, int m, char[][] arr) {
+        int ans = 0, blackWall = 0, whiteWall =0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                System.out.println(arr[i][j]);
+                //only first line
+                if(i==0 && arr[i][j]=='#'){
+                 blackWall++;
+                 continue;
+                }
+
+                if(arr[i][j]!='.'){
+                    blackWall++;
+                }
+                else {
+                    whiteWall++;
+
+                }
+
+                ans = Math.max(blackWall, whiteWall);
+
+
             }
         }
-        return 0;
+        return ans;
     }
 
 

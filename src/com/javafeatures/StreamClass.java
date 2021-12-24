@@ -1,6 +1,5 @@
-package com.company.jdk8features;
+package com.javafeatures;
 
-import javax.swing.text.html.Option;
 import java.util.ArrayList;
 import java.util.Optional;
 import java.util.stream.Stream;

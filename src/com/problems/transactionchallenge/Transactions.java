@@ -1,4 +1,4 @@
-package com.company.transactionchallenge;
+package com.problems.transactionchallenge;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,6 +1,4 @@
-package com.company.dto;
-
-import java.util.ArrayList;
+package com.problems.dto;
 
 public class NamePhoneEmailDTO {
 
