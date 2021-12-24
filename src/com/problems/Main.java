@@ -1,5 +1,7 @@
 package com.problems;
 
+import com.javafeatures.MethodReference;
+import com.javafeatures.Sayable;
 import com.problems.dto.*;
 
 
@@ -9,6 +11,9 @@ import java.util.stream.Stream;
 public class Main {
 
     public static void main(String[] args) {
+        Sayable sayable = MethodReference::saySomething;
+        sayable.say();
+
         //AddData();
         //StreamClass.CheckStream();
         //StreamClass.reduceExamples();
