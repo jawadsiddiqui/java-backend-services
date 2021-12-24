@@ -3,6 +3,7 @@
 ## Interview Topics / Questions
 * [12 Factor App Development Methodology](https://12factor.net/)
 * [Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
+* [Java 8 New Features](docs/java-8-new-features.md)
 * OOPS concepts
 * Design patterns
 * Creational patterns (Abstract factory, Builder, Dependency injection, Factory method, Lazy initialization, Object pool, Resource acquisition is initialization, Prototype, Singleton)
