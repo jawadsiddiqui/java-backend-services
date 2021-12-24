@@ -1,5 +1,6 @@
 package com.problems;
 
+import com.javafeatures.Drawable;
 import com.javafeatures.MethodReference;
 import com.javafeatures.Sayable;
 import com.problems.dto.*;
@@ -11,8 +12,24 @@ import java.util.stream.Stream;
 public class Main {
 
     public static void main(String[] args) {
+        //Method reference
         Sayable sayable = MethodReference::saySomething;
         sayable.say();
+
+        //without lambda expression
+        Drawable d = new Drawable() {
+            @Override
+            public void draw() {
+                System.out.println("without lambda expression.");
+            };
+        };
+        d.draw();
+
+        Drawable d2 = ()-> {
+            System.out.println("With Lambda expression.");
+        };
+        d2.draw();
+
 
         //AddData();
         //StreamClass.CheckStream();
