@@ -8,7 +8,7 @@ Mostly asked questions are related to these below new JDK/Java 8 features
   - Add @FuncationalInterface in interface to enforce the purpose.
   - We can use lambda expression to instantiate them.
   - Runnable, Compareable are some examples
-- [x] Lambda Expression
+- [x] Lambda Expression [example](/src/com/javafeatures/LambdaExamples.java)
 - [x] Stream API
 - [x] Optional Class (To handle NPE/NullPointerExpception)
 - [x] Static and Default (non-abstract) Methods  in Interfaces
