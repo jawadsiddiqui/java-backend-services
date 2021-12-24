@@ -1,9 +1,10 @@
 package com.javafeatures;
 
 
-
-//@FunctionalInterface annotation is used to ensure
-// an interface can’t have more than one abstract method.
+/**
+ * FunctionalInterface annotation should be added for best practice.
+ * @author jsiddiqui
+ */
 @java.lang.FunctionalInterface
 public interface FunctionalInterface {
 

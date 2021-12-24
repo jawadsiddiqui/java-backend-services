@@ -3,9 +3,11 @@
 Mostly asked questions are related to these below new JDK/Java 8 features
 
 - [x] Functional Interface [example](/src/com/javafeatures/FunctionalInterface.java)
-  - One Abstract Method
-  - Multiple default methods are allowed - which have implementation with in interface
-  - Add @FuncationalInterface in interface to enforce the purpose
+  - One Abstract Method is allowed.
+  - Multiple default methods are allowed - which have implementation with in interface.
+  - Add @FuncationalInterface in interface to enforce the purpose.
+  - We can use lambda expression to instantiate them.
+  - Runnable, Compareable are some examples
 - [x] Lambda Expression
 - [x] Stream API
 - [x] Optional Class (To handle NPE/NullPointerExpception)
@@ -17,6 +19,8 @@ Mostly asked questions are related to these below new JDK/Java 8 features
 - [x] Permanent Generation
 - [x] Date & Time API
 - [x] ForEach()
+
+- [x] Method Reference - Interface = Class::Method
 
 
 [Oracle - Java 8 New Features](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
