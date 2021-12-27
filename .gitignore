@@ -2,3 +2,6 @@
 .idea
 /out/
 /.idea/
+*.class
+*.lst
+.idea/
