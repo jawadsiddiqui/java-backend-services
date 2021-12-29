@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/java-8-feature-functional-interface.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/java-8-new-features.md">
           <value>
             <set />
@@ -164,6 +169,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/com/problems/dto/NamePhoneEmailDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/InvalidFunctionalInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/SimpleInterface.java">
           <value>
             <set />
           </value>

@@ -1,8 +1,8 @@
 package com.javafeatures.streamapi;
 
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -45,6 +45,14 @@ public class StreamExample {
         double totalPriceUsingCollector = productList.stream()
                 .collect(Collectors.summingDouble(p->p.price));
         System.out.println(totalPriceUsingCollector);
+
+        //Converting productlist to set
+        //Removes duplicate
+        Set<Double> productList1 = productList.stream()
+                .filter(p->p.price<10)
+                .map(p->p.price)
+                .collect(Collectors.toSet());
+        System.out.println(productList1);
 
     }
 }
