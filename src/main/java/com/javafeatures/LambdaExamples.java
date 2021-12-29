@@ -49,4 +49,10 @@ public class LambdaExamples {
         };
         s1.Say("Lambda");
     }
+
+    public static void main(String[] args) {
+        Runnable run = ()-> System.out.println("Lambda simple example");
+        run.run();
+
+    }
 }

@@ -173,7 +173,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/FuncInterfaceExtend.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/FunctionalInterfaceExamples.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/InterfaceWithDefaultMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/InvalidFunctionalInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/LambdaExamples.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/PrimitiveFuncInterfaceExample.java">
           <value>
             <set />
           </value>
@@ -189,6 +214,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javafeatures/streamapi/StreamExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/problems/StreamProblems.java">
           <value>
             <set />
           </value>

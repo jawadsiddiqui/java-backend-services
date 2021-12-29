@@ -2,7 +2,7 @@
 
 Mostly asked questions are related to these below new JDK/Java 8 features
 
-- [x] Functional Interface [example](/src/com/javafeatures/FunctionalInterface.java)
+- [x] Functional Interface [example](/src/com/javafeatures/FunctionalInterface.java) / [more](/docs/java-8-feature-functional-interface.md)
 - [x] Lambda Expression [example](/src/com/javafeatures/LambdaExamples.java)
 - [x] Stream API
 - [x] Optional Class (To handle NPE/NullPointerExpception)
