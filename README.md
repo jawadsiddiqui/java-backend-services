@@ -4,6 +4,7 @@
 * [12 Factor App Development Methodology](https://12factor.net/)
 * [Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
 * [Java 8 New Features](docs/java-8-new-features.md)
+* [Algorithms & Data Structure](docs/algorithms-data-structures.md)
 * OOPS concepts
 * Design patterns
 * Creational patterns (Abstract factory, Builder, Dependency injection, Factory method, Lazy initialization, Object pool, Resource acquisition is initialization, Prototype, Singleton)
@@ -24,7 +25,7 @@
 * Collections File IO, NIO, Multithreading, Exception handling, Generics, Synchronisation, Serialisation & De-serialisation,
 Concurrent collection, Garbage Collection,JDBC (Java Database Connectivity),Servlet ,Log4J / SLF4J) 
 
-* __JDK8__ (Streams, Lambda, Optional, Future, CompletableFuture, Modules) 
+* __JDK8__ (Streams, Lambda, Optional, Future, CompletableFuture, Modules)  - 
 
 * Spring, SpringBoot, JPA / Hibernate, Spring Security (OAuth2, JWT) , Spring Batch, Spring Cloud
 
@@ -57,43 +58,11 @@ Concurrent collection, Garbage Collection,JDBC (Java Database Connectivity),Serv
 ,JMeter)
 
 
-### Generics Examples
-* [Generic Class](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/GenericClass.java)
-* [Two Parameter Generic Class](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/TwoParamGenClass.java)
 
-### Lambda Expression Examples
-
-### Functional Interfaces Examples
-
-### Streams Examples
-At a foundation we have a BaseStream (Generic Interface). BaseStream extends the AutoCloseable interface; thus, a stream can be managed in a try-with-resources statement.
--- Intermediate operations produce another stream
--- A terminal operation consumes the stream. It is used to produce a result, such as finding the minimum value in the stream, or to execute some action
-
-* [Terminal / Intermediate Operations](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/StreamClass.java)
-* [Reduce](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/StreamClass.java)
-
-### Problem Solvings
-* [GCD, LCM, Matrix](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/Main.java)
-* [Add Two Binary Numbers](https://github.com/jawadsiddiqui/ProblemSolvings/blob/master/src/com/company/Main.java)
-
-### Microservices Example
+### Microservices Projects
 * [department-service Microservice](https://github.com/jawadsiddiqui/department-service)
 * [user-service Microservice](https://github.com/jawadsiddiqui/user-service)
 * [service-registry](https://github.com/jawadsiddiqui/service-registry)
-
-### Software Development KPIs
-* Velocity
-* Sprint Burndown
-* Release Burndown
-* Cycle Time
-* Cumulative Flow
-* Flow Efficiency
-* Code Coverage
-* Code Stability
-* Code Simplicity
-* Code Churn
-
 
 
 ### Recommended Books
