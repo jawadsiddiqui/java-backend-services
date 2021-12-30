@@ -2,6 +2,7 @@ package com.javafeatures.streamapi;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -12,6 +13,11 @@ public class StreamExample {
         productList.add(new Product(1, "Product 1", 3.4));
         productList.add(new Product(2, "Product 3", 10.4));
         productList.add(new Product(3, "Product 4", 100.4));
+
+        Map<Integer, String> productListMap = productList.stream()
+                .collect(Collectors.toMap(p->p.id,p->p.name));
+        System.out.println(productListMap);
+
 
         List<Double> productPriceList = productList.stream()
                 .filter(p -> p.price > 10.1)
@@ -53,6 +59,13 @@ public class StreamExample {
                 .map(p->p.price)
                 .collect(Collectors.toSet());
         System.out.println(productList1);
+
+        Stream.iterate(1, element -> element + 1)
+                .filter(p->p%3==0)
+                .limit(10)
+                .forEach(System.out::println);
+
+
 
     }
 }
