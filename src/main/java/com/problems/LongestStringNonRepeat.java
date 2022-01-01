@@ -2,7 +2,7 @@ package com.problems;
 
 import java.util.HashSet;
 
-public class StringNoRepeat {
+public class LongestStringNonRepeat {
     public static void main(String[] args) {
         String s = "abbaaababa";
         System.out.println(lengthOfLongestSubstring(s));
