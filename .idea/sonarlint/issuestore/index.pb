@@ -1,9 +1,35 @@
 
 \
 ,src/main/java/com/javafeatures/Drawable.java,a/5/a5d73271fadf7734777aa445fd7c6f8cf256c9f5
-[
-+src/main/java/com/javafeatures/Sayable.java,6/7/67a520f3f0846734f65c4daea6003db26bcb7e1a
 d
 4src/main/java/com/javafeatures/ParrallelSorting.java,f/8/f8c72878b8a8c91f51dd06a68b5ddf07408b6e05
 T
 $src/main/java/com/problems/Main.java,1/d/1dca7b07acc900e122081913ce5720ad37d0b682
+g
+7src/main/java/com/javafeatures/FunctionalInterface.java,8/9/89859ff999a029198c6e98f9f28c84ce586dff6a
+g
+7src/main/java/com/javafeatures/FuncInterfaceExtend.java,6/4/649a6906c8ab23e32ec8ed554921136a37a1f345
+K
+docs/java-8-new-features.md,7/3/733d171e9afcb8ba0c68ba85187891c2cde2feea
+^
+.src/main/java/com/javafeatures/LambdaDemo.java,f/d/fd6d0f6a67bd3dd7640aee0d040938be74aa4a11
+o
+?src/main/java/com/javafeatures/FunctionalInterfaceExamples.java,e/1/e14233891c483d95051dd5cd0a1c81b1ff865795
+^
+.src/main/java/com/problems/StreamProblems.java,2/1/21b0b3451d1e9c90ad12bf18610264f6a16f79e1
+n
+>src/main/java/com/javafeatures/InterfaceWithDefaultMethod.java,2/f/2fbb89a34a244f3fe2cd6f9b512305d6b11866ac
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+k
+;src/main/java/com/javafeatures/streamapi/StreamExample.java,3/0/30e52d79f47b0d4ba516e9d6acbf7ab4ef9a7516
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+\
+,src/main/java/com/problems/ShuffleArray.java,4/e/4ef217fa2123c0df2736010fbe0619e69f845873
+Y
+)src/main/java/com/problems/Fibonacci.java,1/c/1c7256c8df16790355972fcda352c347e3c737ce
+R
+"docs/microservices-architecture.md,f/f/ff8315a54da71bd44102f18c9d74b11fc5c04dfd
+f
+6src/main/java/com/problems/FindMedianSortedArrays.java,f/8/f833e2ec71fe0dddd61586912263435684b59c67
