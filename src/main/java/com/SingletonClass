@@ -1,0 +1,15 @@
+
+//only one instance can be created
+public class SingletonClass {
+    private static SingletonClass single_instance = null;
+
+    private SingletonClass(){}
+
+    public static SingletonClass getSingleInstance() {
+        if(single_instance == null){
+            single_instance = new SingletonClass();
+        }
+        
+        return single_instance;
+    }
+}
