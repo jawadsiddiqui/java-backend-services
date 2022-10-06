@@ -1,0 +1,17 @@
+public class ImmutableClass {
+    private String Name;
+    private int age;
+
+    ImmutableClass(String name, int age){
+        this.Name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
