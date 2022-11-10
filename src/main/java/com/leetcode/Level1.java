@@ -31,4 +31,16 @@ public class Level1 {
         //Arrays.stream(nums).forEach(System.out::println);
         return nums;
     }
+
+    public int[] twoSum(int[] nums, int target) {
+        int twoSum   = 0;
+
+        for (int i=0; i<nums.length; i++){
+            for (int j=i+1; i<nums.length; j++) {
+
+            }
+        }
+
+        return nums;
+    }
 }
