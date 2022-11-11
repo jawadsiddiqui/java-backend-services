@@ -1,8 +1,11 @@
 package com.leetcode;
 
 public class RemoveAdjDuplicate {
+
+    public static final String STRING_DUPLICATE = "abccda";
+
     public static void main(String[] args) {
-        System.out.println(removeDuplicates("abccda"));
+        System.out.println(removeDuplicates(STRING_DUPLICATE));
     }
 
     public static String removeDuplicates(String s) {
