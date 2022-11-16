@@ -13,7 +13,7 @@ public class LunchOrderTelescoping {
 
     public LunchOrderTelescoping(String bread, String condiments)
     {
-        //telecoping builder exampld
+        //telescoping builder exampld
         this(bread);
         this.condiments = condiments;
     }
