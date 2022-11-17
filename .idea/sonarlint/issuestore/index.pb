@@ -29,3 +29,5 @@ R
 "docs/microservices-architecture.md,f/f/ff8315a54da71bd44102f18c9d74b11fc5c04dfd
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+G
+docs/design-patterns.md,c/0/c065672a9a628976e3f971be989167f8285d5296
