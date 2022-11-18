@@ -31,3 +31,5 @@ R
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 G
 docs/design-patterns.md,c/0/c065672a9a628976e3f971be989167f8285d5296
+l
+<src/main/java/com/designpatterns/builder/LunchOrderBean.java,0/a/0a9740bcb39099dacdf03a9603a4954f13bc70ca

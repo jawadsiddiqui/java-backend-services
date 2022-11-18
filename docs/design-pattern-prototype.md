@@ -18,3 +18,21 @@
   - Copy constructor or clone
 -Shallow or Deep
 - copy itself
+
+
+Factory
+
+- Flexible objects
+  - multiple constructor
+- concrete instance
+- Fresh Instance
+Example: 
+  - Resource Bundle
+  - Calendar
+  - NumberFormat
+
+- Factory is responsible for lifecycle
+- common interface
+- concrete class
+- parameterized create method
+
