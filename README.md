@@ -1,6 +1,6 @@
 ## Java - Problem Solvings, Examples
  
-###  Interview Topics / Questions
+####  Interview Topics / Questions
 * [12 Factor App Development Methodology](https://12factor.net/)
 * [Crack The System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview)
 * [Java 8 New Features](docs/java-8-new-features.md)
@@ -11,9 +11,12 @@
 * Structural patterns (Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Front controller, Marker, Module, Private class data, Proxy, Twin)
 * Behavioral patterns (Blackboard, Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null object, Observer, PubSub, Servent, Specification, State, Strategy, Template method, Visitor)
 * Concurrency patterns (Active object, Balking, Binding properties, Compute kernel, Double-checking lock, Event-based synchronization, Guarded suspension, Join, Lock, Messaging desing-pattern, Monitor object, Reactor, Read-write lock, Scheduler, Thread pool, Thread-specific storage)
+
+#### Design Patterns
+* Creational ( Builder, Abstract Factory, Factory, Singleton)
+* Microservice patterns
 * Resilience patterns
 * Messaging patterns
-* Microservice patterns
 * Anti patterns
 
 * Functional programming
