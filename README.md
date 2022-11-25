@@ -52,6 +52,7 @@ Concurrent collection, Garbage Collection,JDBC (Java Database Connectivity),Serv
 ,CI/CD pipeline
 ,Kubernetes 
 ,Pivotal Cloud Foundary)
+Google Could Platform
 
 * Automation
 (Cucumber (BDT)
