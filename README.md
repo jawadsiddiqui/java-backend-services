@@ -12,12 +12,18 @@
 * Behavioral patterns (Blackboard, Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null object, Observer, PubSub, Servent, Specification, State, Strategy, Template method, Visitor)
 * Concurrency patterns (Active object, Balking, Binding properties, Compute kernel, Double-checking lock, Event-based synchronization, Guarded suspension, Join, Lock, Messaging desing-pattern, Monitor object, Reactor, Read-write lock, Scheduler, Thread pool, Thread-specific storage)
 
-#### Design Patterns
+### Design Patterns
 * Creational ( Builder, Abstract Factory, Factory, Singleton)
 * Microservice patterns
 * Resilience patterns
 * Messaging patterns
 * Anti patterns
+
+
+### Cloud Based Design Patterns
+- Throttling 
+- Retry 
+- Circuit Breaker Pattern
 
 * Functional programming
 * Reactive programming
