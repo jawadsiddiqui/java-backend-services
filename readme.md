@@ -15,7 +15,6 @@
 ### Design Patterns
 * Creational ( Builder, Abstract Factory, Factory, Singleton)
 * Microservice patterns
-* Resilience patterns
 * Messaging patterns
 * Anti patterns
 
@@ -23,7 +22,7 @@
 ### Cloud Based Design Patterns
 - Throttling 
 - Retry 
-- Circuit Breaker Pattern
+- Resilience patterns ( Circuit Breaker Pattern, Saga)
 
 * Functional programming
 * Reactive programming
