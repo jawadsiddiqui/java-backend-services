@@ -2,7 +2,7 @@
 
 - Avoid costly creation
 - Avoid subclassing
-- Typcially doesn't use "new"
+- Typically doesn't use "new"
 - Often utilizes an interface
 - Usually implemented with a registry
 - Example:
