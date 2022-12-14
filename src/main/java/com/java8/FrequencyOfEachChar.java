@@ -18,6 +18,7 @@ public class FrequencyOfEachChar {
 
         System.out.println(collect);
 
+
         Map<String, Long> collect1 = Arrays.stream(input.split(""))
                 .collect(
                         Collectors.groupingBy(Function.identity(), Collectors.counting())

@@ -5,6 +5,8 @@ import lombok.NoArgsConstructor;
 
 import java.util.*;
 import java.util.function.BinaryOperator;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -23,6 +25,7 @@ public class StreamExamples {
         List<String> emailFlatMap = list.stream().flatMap(u->u.getEmail().stream()).collect(Collectors.toList());
 
         System.out.println(emailFlatMap);
+
 
 
 
