@@ -36,6 +36,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
   </component>
   <component name="sonarModuleSettings">
     <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
