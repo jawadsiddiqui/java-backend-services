@@ -20,7 +20,7 @@ public class OddEvenCompletableFuture {
     private static void execute(int number){
         synchronized (object){
             try {
-                System.out.println(Thread.currentThread().getName()":"+number);
+                System.out.println(Thread.currentThread().getName()+":"+number);
                 object.notify();
                 object.wait();
             } catch (Exception ex){
