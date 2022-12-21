@@ -1,5 +1,6 @@
 package com.leetcode.studyplan.datastructure;
 
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -10,6 +11,8 @@ public class TwoSumExample {
 
         int[] extracted = extracted(arr, target);
         Arrays.stream(extracted).forEach(System.out::println);
+
+
     }
 
     private static int[] extracted(int[] arr, int target) {
