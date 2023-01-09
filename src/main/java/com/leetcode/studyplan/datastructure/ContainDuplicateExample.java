@@ -1,11 +1,13 @@
 package com.leetcode.studyplan.datastructure;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
-public class DataStructureStudy {
+public class ContainDuplicateExample {
     public static void main(String[] args) {
-        System.out.println(containsDuplicate(new int[]{1,2,3,1}));
+        System.out.println(containsDuplicate(new int[]{1, 2, 3, 1}));
+
     }
 
     //bruteforce strategy
