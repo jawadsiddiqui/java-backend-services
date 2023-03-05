@@ -1,6 +1,5 @@
 package com.functionalInterface;
 
-import com.apple.eawt.AppEvent;
 
 import java.util.Arrays;
 import java.util.List;

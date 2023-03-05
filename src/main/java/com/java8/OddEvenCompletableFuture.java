@@ -1,7 +1,5 @@
 package com.java8;
 
-import javafx.beans.binding.ObjectExpression;
-
 import java.util.concurrent.CompletableFuture;
 import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
