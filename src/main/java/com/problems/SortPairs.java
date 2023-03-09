@@ -10,6 +10,13 @@ public class SortPairs {
         Arrays.sort(pairs, Comparator.comparingInt(a->a[0]));
 
 
-        Arrays.stream(pairs).forEach(a-> System.out.println(a[0] +" , "+ a[1]));
+        Arrays.stream(pairs).forEach(a-> System.out.println(a[0] +","+ a[1]));
+
+
+        int [][] pairs2  = {{1, 3, 3}, {9,4, 3}, {3,1, 3}, {4,3, 4}, {4,9, 4}};
+        Arrays.sort(pairs2, Comparator.comparingInt(a->a[0]));
+        Arrays.stream(pairs2).forEach(a-> System.out.println(a[0] +","+ a[1] +","+  a[2]));
+
+
     }
 }
